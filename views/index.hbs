@@ -1,0 +1,36 @@
+{{>_header}}
+
+<main>
+    <div class="home-titles">
+        <h3>Comece agora mesmo.</h3>
+        <p>Preencha seus dados abaixo:</p>
+    </div>
+    <div class="home-content">
+        <form action="/confirmPlan" method="post" id="form">
+            <div id="userInformations">
+                <p>Selecione a quantidade de beneficiários</p>
+                <select id="select" name="selectorPerson">
+                    <option value="" selected disabled>Beneficiários</option>
+                    <option value="1">1 pessoa</option>
+                    <option value="2">2 pessoas</option>
+                    <option value="3">3 pessoas</option>
+                    <option value="4">4 pessoas</option>
+                </select>
+            </div>
+            <br />
+            <p>Selecione um plano</p>
+            <select name="selectorPlan">
+                <option value=""selected disabled>Planos</option>
+                <option value="1">Bitix Customer Plano 1</option>
+                <option value="2">Bitix Customer Plano 2</option>
+                <option value="3">Bitix Customer Plano 3</option>
+                <option value="4">Bitix Customer Plano 4</option>
+                <option value="5">Bitix Customer Plano 5</option>
+                <option value="6">Bitix Customer Plano 6</option>
+            </select>
+
+            <button>Enviar</button>
+        </form>
+  </div>
+  {{>_homeErrors}}
+</main>

@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+/* -------------------- Header -------------------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+header > nav > ul {
+  gap: 30px;
+  display: flex;
+}
+
+header > nav > ul > li {
+  list-style: none;
+}
+
+/* -------------------- Body -------------------- */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  color: #ffffff;
+  background-color: rgba(37, 44, 53, 0.89);
+}
+
+/* -------------------- Home Page -------------------- */
+/* ---------- Error Messages ---------- */
+.container-error-message {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: #7a161c;
+  background-color: #ff5050;
+}
+
+/* ---------- Home Titles ---------- */
+.home-titles {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.home-titles > h3 {
+  font-size: 30px;
+}
+
+.home-titles > p {
+  margin-top: 5px;
+}
+
+/* ---------- Home Content ---------- */
+.home-content {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #191e28;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.home-content > form {
+  width: 100%;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content > form > p {
+  margin-bottom: 5px;
+}
+
+.home-content > form > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+/* ---------- Home Inputs ---------- */
+.home-content > form > div > p {
+  margin-bottom: 5px;
+}
+
+.home-content > form > div > select {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 16px;
+  color: #d6d6d6;
+  border: solid 1px #272f3f;
+  background-color: #272f3f;
+}
+
+.beneficiariesTitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.beneficiariesSubtitle {
+  margin-bottom: -17px;
+  margin-top: 5px;
+}
+
+.benefited-people > input {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 5px;
+  font-size: 16px;
+  color: #d6d6d6;
+  border: solid 1px #272f3f;
+  background-color: #272f3f;
+}
+
+.home-content > form > select {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 16px;
+  color: #d6d6d6;
+  border: solid 1px #272f3f;
+  background-color: #272f3f;
+}
+
+.home-content > form > button {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 9px 18px 9px 18px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 2px;
+  transition: 0.2s;
+  color: #ffffff;
+  background-color: #2cd1de;
+}
+
+.home-content > form > button:hover {
+  background-color: #18b5c0;
+}
+
+/* -------------------- Confirm Plan Page -------------------- */
+/* ---------- Confirm Plan Titles ---------- */
+.confirmPlan-title {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+/* ---------- Confirm Plan Container ---------- */
+.container-confirmPlan {
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #191e28;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container-confirmPlan > h3:first-of-type {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.container-confirmPlan > h3 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #2cd1de;
+}
